@@ -1,0 +1,60 @@
+name: coinnext
+description: "A new Flutter project."
+
+# Prevent accidental publishing to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_screenutil:
+
+
+  flutter_localizations:
+    sdk: flutter
+  crypto_market: ^0.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  flutter_statusbarcolor_ns: ^0.5.0
+
+flutter:
+  uses-material-design: true
+
+  # Enable generation of localized Strings from arb files.
+  generate: true
+
+  assets:
+    # Add assets from the images directory to the application.
+    - assets/images/
+    - assets/images/chart.png
+    - assets/images/chartline.png
+    - assets/images/apple.jpg
+
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: assets/google_fonts/Raleway/Raleway-VariableFont_wght.ttf
+        - asset: assets/google_fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf
+          style: italic
+    - family: Poppins
+      fonts:
+        - asset: assets/google_fonts/Poppins/Poppins-Regular.ttf
+        - asset: assets/google_fonts/Poppins/Poppins-Italic.ttf
+    - family: Inter
+      fonts:
+        - asset: assets/google_fonts/Inter/Inter-VariableFont_slnt,wght.ttf
+        
+
+          
+
+        
+  

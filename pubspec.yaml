@@ -13,11 +13,14 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_screenutil:
+  get:
 
 
   flutter_localizations:
     sdk: flutter
   crypto_market: ^0.0.3
+  smooth_page_indicator: ^1.1.0
+  http: 
 
 dev_dependencies:
   flutter_test:

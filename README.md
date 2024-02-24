@@ -28,3 +28,7 @@ the `lib/src/localization` directory.
 To support additional languages, please visit the tutorial on
 [Internationalizing Flutter
 apps](https://flutter.dev/docs/development/accessibility-and-localization/internationalization)
+
+![Alt text](./assets/images/image1.jpg?raw=true)
+![Alt text](./assets/images/imag2.jpg?raw=true)
+![Alt text](./assets/images/image3.jpg?raw=true)
